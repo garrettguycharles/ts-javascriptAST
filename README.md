@@ -3,7 +3,7 @@
 ### In progress! There aren't even unit tests :D
 
 ## Getting started:
-___
+
 1. Clone this repository.
 
 2. Run `npm install` to download dependencies.
@@ -14,7 +14,7 @@ ___
    3. [MethodNameReporterVisitor.ts](src/visitors/MethodNameReporterVisitor.ts) is our example visitor (see Usage below).
 
 ## Usage:
-___
+
 `npx ts-node src/index.ts --path <path to javascript file> --visitor <name of visitor>`
 
 Example command: 
@@ -31,7 +31,7 @@ Duration: 1ms
 ```
 
 ## How to Implement Visitors:
-___
+
 1. Make a new TS file in `src/visitors`
 2. Have your new visitor class extend the `AstVisitor` abstract class.
 3. Override whatever `beginVisit...` or `endVisit...` methods you'd like! (They are declared in [Ast.ts](src/Ast.ts) in the AstVisitor class.)
