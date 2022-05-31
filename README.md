@@ -2,7 +2,7 @@
 
 ### In progress! There aren't even unit tests :D
 
-##Getting started:
+## Getting started:
 ___
 1. Clone this repository.
 
@@ -13,7 +13,7 @@ ___
    2. [Ast.ts](src/Ast.ts): This file contains most of the objects that have to do with parsing and traversing the js AST.
    3. [MethodNameReporterVisitor.ts](src/visitors/MethodNameReporterVisitor.ts) is our example visitor (see Usage below).
 
-##Usage:
+## Usage:
 ___
 `npx ts-node src/index.ts --path <path to javascript file> --visitor <name of visitor>`
 
@@ -30,7 +30,7 @@ Example output:
 Duration: 1ms
 ```
 
-##How to Implement Visitors:
+## How to Implement Visitors:
 ___
 1. Make a new TS file in `src/visitors`
 2. Have your new visitor class extend the `AstVisitor` abstract class.
