@@ -36,5 +36,6 @@ ___
 2. Have your new visitor class extend the `AstVisitor` abstract class.
 3. Override whatever `beginVisit...` or `endVisit...` methods you'd like! (They are declared in [Ast.ts](src/Ast.ts) in the AstVisitor class.)
 4. Register your new visitor in [index.ts](src/index.ts) in the VISITORS object.
+5. Run the program with your new visitor as the `--visitor`!
 
 See [MethodNameReporterVisitor.ts](src/visitors/MethodNameReporterVisitor.ts) and [TypeFinderVisitor.ts](src/visitors/TypeFinderVisitor.ts) for examples of how to do this.
